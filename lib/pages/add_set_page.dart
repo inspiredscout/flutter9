@@ -120,9 +120,9 @@ class _AddSetPageState extends State<AddSetPage> {
                     onPressed: isLoading ? null : _addSet,
                     child: isLoading
                         ? const CircularProgressIndicator()
-                        : const Text('Добавить'),
+                        : const Text('Добавить', style: TextStyle(color: Colors.white),),
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.blueGrey,
+                      backgroundColor: Colors.deepPurpleAccent,
                     ),
                   ),
                 ],
