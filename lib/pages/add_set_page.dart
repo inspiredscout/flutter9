@@ -58,8 +58,8 @@ class _AddSetPageState extends State<AddSetPage> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('Добавить новый сет'),
-          backgroundColor: Colors.blueGrey,
+          title: const Text('Добавить новый сет', style: TextStyle(color: Colors.white, fontSize: 24, fontFamily: 'Open-Sans'),),
+          backgroundColor: Colors.deepPurpleAccent,
         ),
         body: Padding(
           padding: const EdgeInsets.all(16.0),
